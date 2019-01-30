@@ -7,11 +7,25 @@
          <style>
            body{background-image: url("https://media.giphy.com/media/cfuL5gqFDreXxkWQ4o/giphy-downsized-large.gif")}
          </style>
-    </head>
+       </head>
 <body>
+  <script type="text/javascript">
+      function blink() {
+        var blinks = document.getElementsByTagName('blink');
+        for (var i = blinks.length - 1; i >= 0; i--) {
+          var s = blinks[i];
+          s.style.visibility = (s.style.visibility === 'visible') ? 'hidden' : 'visible';
+        }
+        window.setTimeout(blink, 1000);
+      }
+      if (document.addEventListener) document.addEventListener("DOMContentLoaded", blink, false);
+      else if (window.addEventListener) window.addEventListener("load", blink, false);
+      else if (window.attachEvent) window.attachEvent("onload", blink);
+      else window.onload = blink;
+    </script>
   <div style="text-align: center;"><h1 style="color: whitesmoke;"><b>UrMaMaStan</b></h1></div>
   <div style="text-align: center;"><img src="https://i.imgur.com/D0fGFVO.jpg" alt="Gay Putin" border="5">
-  <a href="mailto:contact@urmamastan.com"><img src="https://github.githubassets.com/images/icons/emoji/shipit.png" width="3%" height="3%" alt=":shipit:"></a>
+  <a href="mailto:contact@urmamastan.com"><blink><img src="https://github.githubassets.com/images/icons/emoji/shipit.png" width="3%" height="3%" alt=":shipit:"></blink></a>
 
     <!--                                 m$$@$@@$@@$@@@,                                           
                                       n@@@%@#jC](x @@@@#@?                                         
