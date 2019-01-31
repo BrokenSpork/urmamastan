@@ -15,3 +15,22 @@ h1{
   margin-right: auto;
   width: 50%;
 }
+
+ /* Three columns side by side */
+.column {
+  float: left;;
+  width: 10%;
+}
+
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+  background-color: whitesmoke;
+}
+
+
+.title {
+  color: grey;
+}
+
