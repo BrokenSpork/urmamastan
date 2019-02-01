@@ -50,7 +50,7 @@ a:hover {
   text-decoration: underline;
 }
 
- blink {
+ SpecialSauce {
         animation: blinker 0.6s linear infinite;
         color: #1c87c9;
 }
